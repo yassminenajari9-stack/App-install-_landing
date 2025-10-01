@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumFlow App - Unlock Your Potential</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">QuantumFlow</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#download">Download</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transform Your Day with QuantumFlow</h1>
+                <p class="tagline">The ultimate app for productivity, focus, and personal growth.</p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn btn-primary">Download Now</a>
+                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="app-store-badges">
+                    <a href="#" aria-label="Download on the App Store">
+                        <img src="path/to/app-store-badge.png" alt="App Store">
+                    </a>
+                    <a href="#" aria-label="Get it on Google Play">
+                        <img src="path/to/google-play-badge.png" alt="Google Play">
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="path/to/hero-app-mockup.png" alt="QuantumFlow App Screenshot" class="floating-mockup">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Why QuantumFlow?</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <div class="icon">🚀</div>
+                    <h3>Boost Productivity</h3>
+                    <p>Streamline your tasks and achieve more in less time with intelligent tools.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">🧘</div>
+                    <h3>Enhance Focus</h3>
+                    <p>Minimize distractions and concentrate on what truly matters with our unique modes.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">🌱</div>
+                    <h3>Foster Growth</h3>
+                    <p>Track your progress, set goals, and cultivate new habits for personal development.</p>
+                </div>
+            </div>
+            <div class="feature-showcase">
+                <div class="showcase-text">
+                    <h3>Smart Task Management</h3>
+                    <p>Organize your day with intuitive drag-and-drop lists, reminders, and priority settings. Never miss a deadline again.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Priority Tagging</li>
+                        <li><i class="fas fa-check-circle"></i> Recurring Tasks</li>
+                        <li><i class="fas fa-check-circle"></i> Collaboration Tools</li>
+                    </ul>
+                </div>
+                <div class="showcase-image">
+                    <img src="path/to/feature-task-mockup.png" alt="Task Management Screenshot">
+                </div>
+            </div>
+            <!-- More feature showcases can be added here, alternating text/image -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <p>"QuantumFlow changed how I approach my work. My productivity has skyrocketed!"</p>
+                    <div class="user-info">
+                        <img src="path/to/user1.jpg" alt="User 1" class="user-avatar">
+                        <span>Jane Doe, Entrepreneur</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Finally, an app that helps me stay focused without feeling overwhelmed. Highly recommended!"</p>
+                    <div class="user-info">
+                        <img src="path/to/user2.jpg" alt="User 2" class="user-avatar">
+                        <span>John Smith, Student</span>
+                    </div>
+                </div>
+                <!-- More testimonials -->
+            </div>
+            <div class="slider-nav">
+                <button class="prev-testimonial">‹</button>
+                <button class="next-testimonial">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Download Section -->
+    <section id="download" class="download-section">
+        <div class="container">
+            <h2>Ready to Unlock Your Potential?</h2>
+            <p>Download QuantumFlow today and start your journey towards a more productive and fulfilling life.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Download on the App Store</a>
+                <a href="#" class="btn btn-primary">Get it on Google Play</a>
+            </div>
+             <div class="download-app-mockup">
+                <img src="path/to/final-app-mockup.png" alt="QuantumFlow App on devices">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 QuantumFlow App. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script> <!-- For icons -->
+</body>
+</html>
